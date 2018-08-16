@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+body{
+	background: white;
+	/*height: 1000px;
+	width: 1000px;*/
+ 
+	
+
+}
+
+header{
+	background: #5e9e5ecc;
+	padding: 2px 0px 5px 40px;
+	height: 55px;
+
+}
+header h1{
+	display: inline;
+	font-family: 'Pacifico',sans-serif;
+	float: left;
+	font-size: 30px;
+	margin-top: 0px;
+	margin-right: 0px;
+	color: white;
+
+
+}
+#nav{
+	font-family: 'Bree Serif',sans-serif;
+}
+
+.homered{
+	background-color: #00807359;
+	padding: 30px 10px 13px 10px;
+}
+
+.divider{
+	background-color: #008080;
+	height: 5px;
+}
+
+.homeblack:hover{
+	background-color:#00807359;
+	padding: 30px 10px 13px 10px; 
+}
+
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+  float: left;
+  font-family: 'Bree Serif',sans-serif;
+  margin: 10px;
+
+
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+#shop{
+	width: 100%;
+
+	
+}
+.left{
+   
+    background-color: white;
+float: right;
+position: absolute;
+
+}
+.right{
+	/*height: auto;
+	width: 100%;*/
+	background-color: white;
+	/*position: absolute;*/
+	padding-right: 10px;
+	float: right;
+	margin-right: 20px;
+	margin-left:  0px;
+
+
+}
+
+.right img{
+	 float: right;
+   position: relative;
+   margin-left: 0px;
+   margin-right: 50px; 
+   margin-top: 30px;
+   margin-bottom: 50px;
+   height: 340px;
+   width: 340px;
+	/*transition: all .5s ease;*/
+	display: inline-block;
+/*	border: solid #008080;*/
+	padding-bottom: 50px;
+
+}
+.right p{
+
+	color: #149576;
+	font-family: 'Bree Serif',sans-serif;
+	font-weight: 50px;
+	margin-left: 15px;
+}
+.right span{
+
+	color: red;
+	font-family: 'Bree Serif',sans-serif;
+	font-weight: 50px;
+	margin-left: 15px;
+}
+.right button{
+	font-family: "Roboto",sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background:#149576;
+	width: 40%;
+	margin-left: 10px;
+	border: 0;
+	margin-top: 10px;
+	margin-bottom: 10PX;
+	padding: 15px;
+	color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.right input{
+	font-family: "Roboto",sans-serif;
+	outline: 1;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+}
+
+
+
+
+
+
+/*.catbox{
+	width: 540px;
+	height: 540px;
+
+	color: red;
+	
+}
+
+
+
+.catbox img{
+	 width: 100%;
+    height: auto;
+
+		
+
+}
+.catbox p{
+	color: green;
+	font-family: 'Bree Serif',sans-serif;
+	font-weight: 50px;
+	float: left;
+}
+*/
+
+
+
